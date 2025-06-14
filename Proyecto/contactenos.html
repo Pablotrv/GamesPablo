@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contactenos</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="contactenos.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="titulo-pagina">🚚 Seguimiento de Camiones</h1>
+      <nav aria-label="Navegación principal">
+        <h2 class="subtitulo-principal">Seleccione una opción</h2>
+        <ul class="lista-enlaces">
+          <li><a href="/index.html">Volver a inicio</a></li>
+          <li><a href="/registro.html">📝 Registrar nueva carga</a></li>
+          <li><a href="/historial.html">📊 Historial</a></li>
+          <li><a href="/kpi.html">📈 KPI</a></li>
+          <li><a href="/nosotros.html">👥 Nosotros</a></li>
+          <li><a href="/contactenos.html">📞 Contáctenos</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form action="#" method="post">
+        <label for="name">Nombre:</label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
+
+        <label for="email">Correo electrónico:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="message">Mensaje:</label><br />
+        <textarea
+          id="message"
+          name="message"
+          rows="10"
+          cols="30"
+          required
+        ></textarea
+        ><br /><br />
+
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+    <footer>
+      © Desarrollado por Pablo Trovato. Todos los derechos reservados.
+    </footer>
+  </body>
+</html>

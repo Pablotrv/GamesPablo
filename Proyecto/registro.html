@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solicitar Viaje de Camión</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="titulo-pagina">📝 Solicitar Viaje de Camión</h1>
+    </header>
+    <main>
+      <section class="bienvenida">
+        <form id="form-viaje">
+          <label for="origen">Origen:</label><br />
+          <input type="text" id="origen" name="origen" required /><br /><br />
+
+          <label for="destino">Destino:</label><br />
+          <input type="text" id="destino" name="destino" required /><br /><br />
+
+          <button type="submit" class="boton">Solicitar viaje</button>
+        </form>
+        <div
+          id="mensaje-confirmacion"
+          style="margin-top: 20px; color: green"
+        ></div>
+        <a
+          href="index.html"
+          class="boton"
+          style="display: inline-block; margin-top: 18px"
+          >⬅️ Volver al inicio</a
+        >
+      </section>
+    </main>
+    <footer>
+      © 2025 Desarrollado por Pablo Trovato. Todos los derechos reservados.
+    </footer>
+  </body>
+</html>

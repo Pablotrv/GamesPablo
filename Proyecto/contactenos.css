@@ -1,0 +1,91 @@
+/* Estilos modernos y pastel para la página de contacto */
+body {
+  background: #f6f5f3;
+  color: #444;
+  font-family: "Segoe UI", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  background: #b7e4c7;
+  border-radius: 0 0 18px 18px;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.06);
+  padding-bottom: 10px;
+}
+
+.titulo-pagina {
+  color: #588157;
+  margin: 20px 0 10px 0;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 60vh;
+}
+
+form {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(44, 62, 80, 0.1);
+  padding: 32px 28px;
+  max-width: 420px;
+  width: 100%;
+  margin: 40px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+form label {
+  color: #7c6f57;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+form input,
+form textarea {
+  border: 1px solid #fcd5ce;
+  border-radius: 7px;
+  padding: 10px 12px;
+  font-size: 1em;
+  background: #fffaf6;
+  color: #495057;
+  margin-bottom: 8px;
+  transition: border 0.2s;
+  resize: none;
+}
+
+form input:focus,
+form textarea:focus {
+  border: 1.5px solid #b7e4c7;
+  outline: none;
+}
+
+form button[type="submit"] {
+  background: #b7e4c7;
+  color: #444;
+  border: none;
+  padding: 12px 0;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-top: 10px;
+}
+
+form button[type="submit"]:hover {
+  background: #fcd5ce;
+  color: #495057;
+}
+
+footer {
+  background: #f9dcc4;
+  color: #7c6f57;
+  border-radius: 18px 18px 0 0;
+  margin-top: 40px;
+  padding: 15px 0;
+  text-align: center;
+}
